@@ -12,6 +12,7 @@ namespace tafethingy
         {
             InitializeComponent();
         }
+	// this is a comment to test the vsc
         static String datafilename = "Database.txt";
         static String markeddatafilename = "markedDatabase.txt";
         static String[] data = File.ReadAllLines(datafilename);
